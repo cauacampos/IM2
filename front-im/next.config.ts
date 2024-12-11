@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: "/api/:path*", 
-        destination: "http://localhost:5000/:path*", // Substitua pela URL do backend
+        destination: "http://localhost:8080/:path*", // Substitua pela URL do backend
       },
     ];
   },
