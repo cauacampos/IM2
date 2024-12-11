@@ -11,7 +11,7 @@ exports.app = (0, express_1.default)();
 dotenv_1.default.config();
 exports.app.use(express_1.default.json());
 exports.app.use((0, cors_1.default)());
-exports.app.listen(3001, () => {
-    console.log('Server is running  in http://localhost:3001');
+exports.app.listen(8080, () => {
+    console.log("Server is running  in http://localhost:8080");
 });
 //# sourceMappingURL=app.js.map
